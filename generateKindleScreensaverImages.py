@@ -1,12 +1,14 @@
-import createImage, getMostFreqChars
+import createScreensaverImage, getMostFreqChars
 
 freqFile = "resources/CharFreq.csv"
+screensaverDirectory = "screensaver2000-2500/"
 
 i = 1
-chars = getMostFreqChars.getChars(freqFile=freqFile, number=100)
+chars = getMostFreqChars.getChars(freqFile=freqFile, startNo=2000, endNo=2100)
+
 for line in chars: 
 	print i,":",line
-	image = createImage.drawKindleHanzi(line, debug = False)
-	outfile = "output/"+str(i)+".png"
+	image = createScreensaverImage.drawScreensaverImage(line, debug = False)
+	outfile = screensaverDirectory+str(i)+".png"
 	image.save(outfile)
 	i += 1
