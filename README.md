@@ -15,4 +15,8 @@ I'm using a font called "华文黑体.ttf" to draw the character and translation
 The character frequency list on which this is based is the excellent work of [Jun Da](http://lingua.mtsu.edu/chinese-computing/statistics/). The translations and pinyin are taken from from wonderful [CC-EDICT](http://www.mdbg.net/chindict/chindict.php?page=cedict) and set in the beautiful [Linux Libertine](http://www.linuxlibertine.org/) font.
 
 #Output example
+## Sample output file
+![Sample output file](http://px0.de/wp-content/uploads/2012/12/14.png)
+
+## On an actual device
 ![Output example on actual device](http://px0.de/wp-content/uploads/2012/12/sheng1.png)
