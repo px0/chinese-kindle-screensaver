@@ -1,5 +1,5 @@
 # What is this?
-This generates beautiful Chinese characters to be used as screensaver on your e-Ink Kindles. Please have a look at [http://px0.de/chinese-kindle-screensaver/](http://px0.de/chinese-kindle-screensaver/]) for more information and instructions on how to install the files on your Kindle.
+This generates beautiful Chinese characters to be used as screensaver on your e-Ink Kindles. Please have a look at [http://px0.de/chinese-kindle-screensaver/](http://px0.de/chinese-kindle-screensaver/) for more information and instructions on how to install the files on your Kindle.
 
 # What's in there and how do I use it?
 + **getMostFreqChars.py** - takes a Chinese character frequency list, extracts a certain subset of it, and performs a couple of assorted operations (such as turning numerated pinyin into pinyin with diacritics). Currently, it is pretty inflexible and insists on using [Jun Da's frequency list](http://lingua.mtsu.edu/chinese-computing/statistics/), but it can be easily adapted if you have something different in mind
